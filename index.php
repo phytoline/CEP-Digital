@@ -6,7 +6,7 @@ use Phytoline\CepDigital\Search;
 
 $search = new Search;
 
-$result = $search->getAddressFromZipcode('01001000');
+$result = $search->getAddressFromZipcode('72650020');
 
 /**
  * Use a fonte de sua preferência
