@@ -1,0 +1,21 @@
+{
+    "name": "phytoline/cep-digital",
+    "description": "Busca de cep online em diferentes APIs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Lucas Alves",
+        "email": "phytolinedev@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Phytoline\\CepDigital\\": "src/"
+        }
+    }
+}
